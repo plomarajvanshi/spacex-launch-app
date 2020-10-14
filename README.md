@@ -4,18 +4,17 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # App Overview
 
-- The app contains one module(named dashboard)
-- We have three components under the dashboard module(filter, home, launch list), and filter and home component is wrapped in home component.
-- By default while loading the app it will open the home component.
+- The app contains one main module - Dashboard
+- We have three components under the dashboard module(filter, home, launch list), and filter component is wrapped in home component.
+- Landing page will be Home Component `/home`.
 - Filters are all configurable and kept as Constants.
-- And followed all possible best practices.
 - Api has been made in the parent level and data served to child component.
-- The app is followed with server side rendering.
+- The app is following server side rendering.
 - For fetching the data, simple http method is used with required query parameters.
-- And the app targeted for mobile and desktop views.
+- Application has targeted both the desktop and mobile view.
 
 ## Development server
-To run the application on local, you need to give command - `npm install`
+To run the application on local, you need to give command - `npm install` to install all the required dependencies.
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
